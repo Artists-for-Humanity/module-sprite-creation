@@ -9,6 +9,8 @@
 We're setting our canvas size to 128 wide by 128 high. This will be the dimensions of each sprite in the sheet.  
 We are also setting the units to pixels, and the resolution to 72. A resolution of 72 will ensure that the pixel size we use in Photoshop will be retained when exporting. You can look at it as "true" resolution.
 
+Also, ***make sure you set the Color Mode to 16-bit or less.*** We'll remind you again later in the tutorial, but it's best to set that here and now.
+
 ### Hit create when you've set your desired dimensions.
 
 ## 1.3 Select the "Motion" Workspace
@@ -45,6 +47,7 @@ This will create a Video Group, which is a sequential set of layers designed to 
 
 ### Note:
 Our example sprite sheet has 9 frames, so we've cut out 9 layers.  
+Make sure that each layer is only 1 frame long, as this will be important when we export in step 3.
 
 ## 1.9 Rename Your Video Group
 ![Step 9.1](../images/step1/1.9.1.png)
